@@ -38,7 +38,48 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.header a,
+.hero-content p {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+}
+
+.hero-content {
+    display: flex;
+    gap: 32px;
+    padding: 64px 0;
+}
+
+.hero-content h1,
+.hero-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    margin: 8px 0;
+}
+
+.hero-content button {
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+/*TODO Replace img-placeholder with an image later*/
+.img-placeholder {
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    flex-shrink: 0;
 }
