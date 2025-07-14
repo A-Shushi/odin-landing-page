@@ -43,7 +43,8 @@ body {
 }
 
 .header a,
-.hero-content p {
+.hero-content p,
+.information p {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
@@ -91,9 +92,46 @@ body {
     justify-content: center;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 128px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 36px 0;
+}
+
+.information-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 125px;
+    text-align: center;
+    gap: 8px;
+}
+
+.information p {
+    color: #494949;
+}
+
+/*TODO Replace tile-placeholder with an image later*/
 .tile-placeholder {
     width: 125px;
     height: 125px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     border-radius: 8px;
 }
