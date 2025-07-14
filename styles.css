@@ -158,3 +158,35 @@ p {
     font-weight: bold;
     font-size: 18px;
 }
+
+.CTA {
+    padding: 64px 128px;
+}
+
+.CTA-content {
+    padding: 64px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.CTA-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.CTA-right {
+    background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+}
