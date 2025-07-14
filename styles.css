@@ -56,10 +56,9 @@ body {
     padding: 64px 0;
 }
 
-.hero-content h1,
-.hero-content p,
-.information h2,
-.information p {
+h1,
+h2,
+p {
     margin: 0;
     padding: 0;
 }
@@ -134,4 +133,28 @@ body {
     height: 125px;
     border: 2px solid #3882F6;
     border-radius: 8px;
+}
+
+.quote {
+    padding: 64px 128px;
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
 }
