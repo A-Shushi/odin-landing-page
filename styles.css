@@ -190,3 +190,12 @@ p {
     border: 1px solid #F9FAF8;
     color: #F9FAF8;
 }
+
+.footer {
+    margin-top: auto;
+    align-content: center;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px 128px;
+}
