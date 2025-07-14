@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/*TODO Collect all margin 0 and padding 0 into one argument*/
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -54,7 +56,9 @@ body {
 }
 
 .hero-content h1,
-.hero-content p {
+.hero-content p,
+.information h2,
+.information p {
     margin: 0;
     padding: 0;
 }
@@ -82,4 +86,14 @@ body {
     height: 250px;
     background-color: gray;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile-placeholder {
+    width: 125px;
+    height: 125px;
+    border: 2px solid blue;
+    border-radius: 8px;
 }
